@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contact</title>
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="nav">
+        <nav>
+            <ul class="desktop-menu">
+                <li><a href="index.html">Home</a> </li>
+                <li><a class="active" href="about .html">About</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main class="main-2">
+        <section class="contact-container">
+            <form class="contact-form" id="contactForm">
+                <h2>Get in Touch</h2>
+                <label>Your Name</label>
+                <input type="text" id="name" name="name" placeholder="John Doe">
+                <div class="error-message" id="name-error"></div>
+
+                <label>Email Address</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com">
+                <div class="error-message" id="email-error"></div>
+
+                <label>Contact Number</label>
+                <input type="tel" id="contact_number" name="contact-number" placeholder="+356 #### ####">
+                <div class="error-message" id="contact_number-error"></div>
+
+                <label>Your Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Type your message here..."></textarea>
+                <div class="error-message" id="message-error"></div>
+
+                <button type="button" id="submitBtn">Send Message</button>
+
+
+            
+        </section>
+    </main>
+    <a href="#nav" class="back-to-top" title="Go to top">↑</a>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+    <script src="Script.js"></script>
+</body>
+</html>

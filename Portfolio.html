@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <header id="nav">
+        <nav>
+            <ul class="desktop-menu">
+                <li><a href="index.html">Home</a> </li>
+                <li><a class="active" href="about .html">About</a></li>
+                <li><a href="Portfolio.html">Portfolio</a></li>
+                <li><a href="Contact.html">Contact</a></li>
+            </ul>
+        </nav> 
+    </header>
+    <main class="main-2">
+<section >
+    <h1 class="profile-text">My Work</h1>
+    <article>Welcome to my portfolio! Here you'll find a selection of my projects that showcase my
+         skills in web development and design. Each project highlights a unique challenge and 
+         my approach to solving it, demonstrating my creativity and technical expertise.</article>
+
+    <article >Curious and committed student, balancing academics with personal growth, 
+        eager to learn and tackle challenges. I enjoy exploring the intersection
+         of website development and design. I'm always looking for opportunities to improve 
+         my skills and contribute to the open-source community, while also exploring 
+         new technologies and trends in the field.</article>
+
+         <button class="my-button-profile" id="toggle">View Portfolio</button>
+    <div id="P" >
+        <div class="project-container">
+            <img src="web1.png" class="project-image" alt="first project">
+            <button class="project-btn" data-desc="This is my first project, a basic sports website built with HTML, CSS, and JavaScript.">View Details</button>
+            <div class="project-desc"></div>
+        </div>
+        
+        <div class="project-container">
+            <img src="web2.png" class="project-image" alt="table">
+            <button class="project-btn" data-desc="A school project where I created a table with alternating yellow highlighted rows. Built with HTML and CSS.">View Details</button>
+            <div class="project-desc"></div>
+        </div>
+        
+        <div class="project-container">
+            <img src="web3.png" class="project-image" alt="alginments">
+            <button class="project-btn" data-desc="I learned how to align elements by using CSS Grid when creating this weather application. It fetches real-time weather data using API calls and was built with JavaScript and Bootstrap.">View Details</button>
+            <div class="project-desc"></div>
+        </div>
+        
+        <div class="project-container">
+            <img src="web4.png" class="project-image" alt="background">
+            <button class="project-btn" data-desc="This is a practical school work where I learn how to change the background color of a web page. It was built with HTML and CSS.">View Details</button>
+            <div class="project-desc"></div>
+        </div>
+        
+        <div class="project-container">
+            <img src="web5.png" class="project-image" alt="temperature converter">
+            <button class="project-btn" data-desc="A temperature converter that converts between Fahrenheit and Celsius and vice versa. Built with JavaScript for real-time temperature conversion.">View Details</button>
+            <div class="project-desc"></div>
+        </div>
+    </div>
+    
+   
+</section>
+
+    </main>
+    <script src="Script.js"></script>
+    <a href="#nav" class="back-to-top" title="Go to top">↑</a>
+    <footer>
+        <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+    </footer>
+</body>
+</html>
